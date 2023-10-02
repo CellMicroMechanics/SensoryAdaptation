@@ -85,8 +85,8 @@ clc;clear;
 %     
 %     AvgQa0 = sum_Qa./n;
 %     AvgQm0 = sum_Qm./n;
-%     diss(k) = omega_m*beta^2*temp*(1+dG(s,m_star(k)))^2
-%     Diss(k) = temp*mean(AvgQa0(end-1e5:end)+ AvgQm0(end-1e5:end))
+%     Diss(k) = omega_m*beta^2*temp*(1+dG(s,m_star(k)))^2
+%     diss(k) = temp*mean(AvgQa0(end-1e5:end)+ AvgQm0(end-1e5:end))
 %     
 %     toc
 % end
@@ -187,8 +187,8 @@ clc;clear;
 %     
 %     AvgQa0 = sum_Qa./n;
 %     AvgQm0 = sum_Qm./n;
-%     diss(k) = omega_m*beta^2*temp*(1+dG(s,m_star(k)))^2
-%     Diss(k) = temp*mean(AvgQa0(end-1e5:end)+ AvgQm0(end-1e5:end))
+%     Diss(k) = omega_m*beta^2*temp*(1+dG(s,m_star(k)))^2
+%     diss(k) = temp*mean(AvgQa0(end-1e5:end)+ AvgQm0(end-1e5:end))
 %     m_str(k) = -1/2*log(1/s*(1/a0-1));
 %     toc
 % end
